@@ -36,21 +36,60 @@ header a{
     font-weight: bold;
 }
 section{
-    height: 75vw;
+    height: 80vw;
     position: relative;
 }
 section:not(.transparente){
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.288);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.849);
 }
 
+#s2{
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
+}
 pre{
     font-family: var(--fonte3);
     font-size: 3.5vw;
+    padding: 5px;
     line-height: 7vw;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     max-width: fit-content;
     position: absolute;
-    top: 60px;
-    left: 30px;
+    margin-left: 5vw;
+    margin-top: 12%;
+    
 }
 
+.transparente pre{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+#s3, #s5{
+    min-height: 130vw;
+}
+
+#s4{
+    background-image: url(../imagens/background002.jpg);
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+footer{
+    background-color: black;
+    min-height: 40px;
+    flex-wrap: wrap;
+    color: white;
+    font-family: var(--fonte1);
+    text-align: center;
+}
+footer > p{
+    padding-top: 10px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
